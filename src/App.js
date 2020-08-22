@@ -8,7 +8,7 @@ import Popup from "./components/Popup";
 import { showNotification as show } from "./helpers/helpers";
 import "./App.css";
 
-const words = ["Pemrograman", "React", "JavaScript", "Website", "Training"];
+const words = ["pemrograman", "react", "javascript", "website", "training", "nodejs"];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
